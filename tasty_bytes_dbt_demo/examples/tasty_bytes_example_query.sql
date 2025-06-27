@@ -1,3 +1,5 @@
+SHOW TABLES IN DATABASE tasty_bytes_dbt_db;
+
 -- What tables exist?
 SHOW TABLES IN SCHEMA tb_101.raw_pos;
 
