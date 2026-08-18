@@ -16,7 +16,7 @@ jobs:
     environment: dev # Must match the OIDC subject's environment
     env:
       SNOWFLAKE_CLI_FEATURES_ENABLE_DBT: true
-      SNOWFLAKE_ACCOUNT: ${{ secrets.SNOWFLAKE_MDROK_AWS_CAS2 }}
+      SNOWFLAKE_ACCOUNT: ${{ secrets.SNOWFLAKE_ACCOUNT }}
       # SNOWFLAKE_USER: ${{ secrets.SNOWFLAKE_USER }} # Required if you aren't using OIDC
       # SNOWFLAKE_PASSWORD: ${{ secrets.SNOWFLAKE_PAT }} # Snowflake password is required if you aren't using OIDC
       SNOWFLAKE_DATABASE: ${{ vars.SNOWFLAKE_DATABASE }}
